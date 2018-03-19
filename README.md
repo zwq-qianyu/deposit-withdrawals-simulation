@@ -1,2 +1,20 @@
-# deposit-withdrawals-simulation
-Python实现的自动存取款模拟程序
+#Python实现的自动存取款模拟程序
+
+实现了一个自动取款机的存取款模拟效果。
+有登录和退出、查询余额、取钱，存钱5个操作操作。
+
+运行程序后，首先会进入登录界面；
+登录成功后，会有 退出、查询余额、取钱，存钱 4个操作。
+
+存取款机不支持添加用户，但是程序中预设了4个用户，可以通过这4个用户来登录试验程序。
+4个预设用户的信息如下：
+
+  {"id":"1","name":"Alice","password":"123456","balance":"1200000"},
+	{"id":"2","name":"Bob","password":"123456","balance":"300000"},
+	{"id":"3","name":"Taylor","password":"987654","balance":"1314000"},
+	{"id":"4","name":"Eric","password":"987654","balance":"9865000"}
+ 
+ 注意：
+ name 为用户名
+ password 为密码
+ balance 为余额。
